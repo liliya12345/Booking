@@ -8,5 +8,6 @@ public class Main {
     }
     static void adddate(LocalDate date){
         System.out.println(date);
+        System.out.println("Hello Paris!");
     }
 }
