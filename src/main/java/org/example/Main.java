@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        addPlace("Paris");
+    }
+   static void addPlace(String place){
+        System.out.println(place);
     }
 }
